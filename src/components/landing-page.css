@@ -8,13 +8,14 @@
 
 
 .landing-page-info {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
     text-align: right;
     margin-top: 0;
     margin-right: 3%;
     font-size: 47px;
+    color: #5D6D7E;
     /* font-family: Impact, sans-serif; */
 }
 
@@ -34,12 +35,16 @@
 .login-link, .register-link {
     text-decoration: none;
     font-size: 40px;
-    color: #E67E22;
+    color: #F1C40F;
     animation: moveInUp;
     animation-duration: 5s;
     animation-timing-function: ease-in; 
     line-height: 1.7;
     margin-right: 7%;
+}
+
+.login-link:hover, .register-link:hover {
+    color: pink;
 }
 
 @keyframes moveInBottom {

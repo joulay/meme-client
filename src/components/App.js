@@ -4,6 +4,7 @@ import {Route} from 'react-router-dom';
 import HeaderBar from './header-bar';
 import LandingPage from './landing-page';
 import RegistrationPage from './registration-page';
+import LoginPage from './login-page';
 import {refreshAuthToken} from '../actions/auth';
 import './App.css';
 
@@ -42,7 +43,8 @@ render() {
       <div className="App">
           <HeaderBar />
           <Route exact path="/" component={LandingPage} />     
-          <Route exact path="/register" component={RegistrationPage} />   
+          <Route exact path="/register" component={RegistrationPage} /> 
+          <Route exact path="/login" component={LoginPage} />   
       </div>
     );
   }

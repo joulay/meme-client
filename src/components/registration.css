@@ -5,6 +5,7 @@
 .home-header {
     font-size: 40px;
     text-transform: uppercase;
+    color: #1B4F72;
 }
 
 .container {
@@ -13,6 +14,15 @@
 
 .link {
     text-decoration: none;
-    color: #E67E22;
+    color: #28B463;
     
+}
+
+.link:hover {
+    color: #82E0AA;
+}
+
+
+.login-form {
+    color: #2980B9;
 }

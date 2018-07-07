@@ -1,0 +1,12 @@
+#username, #password, #fullname, #passwordConfirm {
+    width: 30%;
+    height: 32px;
+    padding: 4px 11px;
+    border: 1px solid#F4F6F6;
+    border-radius: 5px;
+  }
+  
+.form-error {
+    color:#AED6F1;
+    font-size: 11px;
+}
