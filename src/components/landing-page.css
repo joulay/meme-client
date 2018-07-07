@@ -1,7 +1,7 @@
 .yao {
     position: absolute;
-    top: 10vh;
-    right: 5vw;
+    top: 8vh;
+    right: 8vw;
    
 }
 
@@ -11,16 +11,31 @@
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
     text-align: right;
-    margin-top: 25%;
+    margin-top: 20%;
     margin-right: 3%;
-    font-size: 50px;
+    font-size: 47px;
     /* font-family: Impact, sans-serif; */
 }
 
 .spaced-rep-info {
-    font-size: 13px;
+    font-size: 12px;
     position: fixed;
     bottom: 0;
+}
+
+.options {
+    text-align: right;
+}
+
+.login-link, .register-link {
+    text-decoration: none;
+    font-size: 40px;
+    color: #E67E22;
+    animation: moveInUp;
+    animation-duration: 5s;
+    animation-timing-function: ease-in; 
+    line-height: 1.7;
+    margin-right: 7%;
 }
 
 @keyframes moveInBottom {
@@ -34,3 +49,15 @@
         transform: translate(0); 
     }
 }  
+
+@keyframes moveInUp {
+    0% {
+        opacity: 0; 
+        transform: translateY(-100%); 
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0); 
+    }
+}
