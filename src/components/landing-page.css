@@ -1,8 +1,9 @@
 .yao {
-    position: absolute;
+    /* position: absolute;
     top: 8vh;
-    right: 8vw;
-   
+    right: 8vw; */
+    position: relative;
+    left: 78vw;
 }
 
 
@@ -11,7 +12,7 @@
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
     text-align: right;
-    margin-top: 20%;
+    margin-top: 0;
     margin-right: 3%;
     font-size: 47px;
     /* font-family: Impact, sans-serif; */
