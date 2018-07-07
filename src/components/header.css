@@ -1,0 +1,13 @@
+.banner {
+    text-align: left;
+    font-size: 16px;
+    color:#808B96;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+hr {
+    position: absolute;
+    width: 40px;
+    left: 60px;
+}

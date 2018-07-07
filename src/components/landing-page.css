@@ -1,14 +1,26 @@
 .yao {
     position: absolute;
-    top: 40vh;
+    top: 10vh;
     right: 5vw;
    
 }
+
 
 .landing-page-info {
     text-transform: uppercase;
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
+    text-align: right;
+    margin-top: 25%;
+    margin-right: 3%;
+    font-size: 50px;
+    /* font-family: Impact, sans-serif; */
+}
+
+.spaced-rep-info {
+    font-size: 13px;
+    position: fixed;
+    bottom: 0;
 }
 
 @keyframes moveInBottom {
@@ -21,4 +33,4 @@
         opacity: 1;
         transform: translate(0); 
     }
-}
+}  

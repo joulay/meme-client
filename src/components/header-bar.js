@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {clearAuth} from '../actions/auth';
 import {clearAuthToken} from '../local-storage';
-// import './header.css'
+import './header.css'
 
 // const style = {
 //     margin: 12,
@@ -34,8 +34,9 @@ export class HeaderBar extends React.Component {
         return (
             <div className="header">
                 <header>
-                    <h1 className="banner">WHAT DO YOU MEME?
+                    <h1 className="banner">WHAT DO YOU <br/> MEME?
                     </h1>
+                    <hr/>
                 </header>
                 <div className="logout-button">
                     {logOutButton}
